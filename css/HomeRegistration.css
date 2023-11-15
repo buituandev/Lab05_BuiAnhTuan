@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 1;
+}
+
+.hright {
+    float: right;
+    text-align: right;
+}
+
+.hright a:hover {
+    color: #900;
+    border: #333;
+}
+
+.gNav {
+    clear: both;
+    border: solid 1px;
+    background-color: #a2ebb1;
+    padding: 5px 0;
+}
+
+.hbutton li {
+    display: inline;
+    border-right: solid 1px #333;
+    padding: 0 5px;
+}
+
+.hbutton li:last-child {
+    border-right: none;
+}
+
+.hbutton li a {
+    text-decoration: none;
+    color: #cf682d;
+}
+
+.hbutton li a:hover {
+    color: #900;
+    text-decoration: underline;
+}
+
+.hinput {
+    float: right;
+}
+
+#search {
+    width: 200px;
+}
+
+#body {
+    clear: both;
+    background-color: #eeeae9;
+    border: 5px #333;
+    border-radius: 5px;
+    margin: 5px 2px 5px 2px;
+    box-shadow: 0 0 5px #333;
+}
+
+.article {
+    display: table-row;
+}
+
+aside#left,
+aside#right,
+section {
+    display: table-cell;
+    vertical-align: top;
+}
+
+aside#left {
+    width: 20%;
+}
+
+aside#right {
+    width: 20%;
+}
+
+.article .article-box {
+    border: solid 1px #206ab5;
+    border-radius: 2px;
+    margin: 10px 0;
+}
+
+.article .article-box p {
+    font-weight: bold;
+    font-size: .9rem;
+    color: white;
+    background-color: #206ab5;
+    text-align: center;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    padding: 2%;
+}
+
+.article .article-box h4 {
+    color: red;
+}
+
+.article-box a:hover {
+    color: red;
+}
+
+.article-box select {
+    margin: 5% 13%;
+}
+
+.article-box marquee a img {
+    width: 20%
+}
+
+.right .right-box {
+    border: solid 1px #206ab5;
+    border-radius: 2px;
+    margin: 10px 0;
+}
+
+.section-container {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
+section h3 {
+    font-weight: bold;
+    font-size: .9rem;
+    color: white;
+    background-color: #206ab5;
+    text-align: center;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    padding: 1%;
+    margin: 1%;
+}
+
+.section-container .form-box {
+    background-color: #c7e5f2;
+    border: dashed 1px #79b22f;
+    border-radius: 5px;
+    width: 700px;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    ;
+}
+
+.section-container .fieldset-box {
+    padding: 20px;
+    margin: 20px 20px 0 20px;
+}
+
+.button-container {
+    text-align: center;
+    margin: 10px 0 0 10px;
+}
+
+.button-container .button {
+    background-color: #206ab5;
+    color: white;
+    font-size: 1rem;
+    border: 1px;
+    border-radius: 2px;
+    padding: 5px;
+    margin-right: 20px;
+}
+.cell-left{
+    width: 200px;
+}
+
+footer {
+    text-align: center;
+    background-color: #79b22f;
+}
